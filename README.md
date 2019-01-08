@@ -23,10 +23,13 @@ clone, a Facebook clone, a forum, an ecommerce website, etc. The project scope
 should be well-understood and defined up-front. Please verify your project plans
 with an instructor before beginning coding.
 
+Your application will need a basic UI using HTML and CSS, but it is ok for this to be simple
+
 Focus on thoroughness of the implementation using backend technologies like
 `GET` and `POST` requests, database schema and queries, user authentication,
-form submission and validation, HTML templates, etc. You will have to have
-*some* frontend aspect of the project, but the focus should be backend work.
+form submission and validation, HTML templates, etc. You will need some HTML +
+CSS in order for the application to work, but it is ok to keep this part simple
+(hint: use a CSS framework).
 
 Each team will present their project in class on **Tuesday, Jan 22nd**.
 
@@ -48,12 +51,16 @@ Your application **must**:
 
 - Your project must support database [schema migrations](https://en.wikipedia.org/wiki/Schema_migration).
 
-- Have at least **two** `<form>` submissions that insert or edit data in a database.
-  - Do not use AJAX; use a `<form action="">` HTTP POST request
+- User actions should trigger [CRUD operations](https://en.wikipedia.org/wiki/Create,_read,_update_and_delete) against the database.
+  - You must have at least **two** `<form>` submissions that insert or edit data in a database.
+  - Do not use AJAX for form submission; use a native HTML `<form>` element
   - The form should do input validation and show input errors in the UI (if necessary)
 
 - Have at least one AJAX-based GET endpoint that powers a dynamic dropdown or type-ahead component
-  - Examples: http://autocompletejs.com/examples#2000, https://jqueryui.com/autocomplete/#remote
+  - This part will require some clientside JavaScript
+  - Example components:
+    - http://autocompletejs.com/examples#2000
+    - https://jqueryui.com/autocomplete/#remote
 
 - Have user authentication using [passport.js](http://www.passportjs.org/)
   - must support at least one OAuth provider (Twitter, Facebook, GitHub, etc)
@@ -99,14 +106,8 @@ Your application **must**:
   - PRs should not be merged by the person who opened it (no self-merging).
   - See below for [suggested PR rejection criteria](#suggested-pr-rejection-criteria)
 
-- Project features and bugs must be tracked using a [scrum]-like system:
-  - Every PR should be associated with a GitHub Issue (or similar).
-  - Consider using a tool like [GitHub Project Board] or [Trello].
-  - Every class day teams will have a "stand up meeting" with a TA or Instructor.
-
-[scrum]:https://en.wikipedia.org/wiki/Scrum_(software_development)
-[GitHub Project Board]:https://help.github.com/articles/about-project-boards/
-[Trello]:https://trello.com/
+- Project features and bugs should be tracked using GitHub Issues.
+  - Use of additional project management tooling (Trello, JIRA, etc) is at your team's discretion
 
 ## Suggested PR Rejection Criteria
 
