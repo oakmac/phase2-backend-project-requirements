@@ -58,7 +58,7 @@ Your application **must**:
   - This tutorial might be helpful: [Working with forms](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/forms)
 
 - Have at least one AJAX-based GET endpoint that powers a dynamic dropdown or type-ahead component
-  - This part will require some clientside JavaScript
+  - This part will require some client-side JavaScript
   - Example components:
     - http://autocompletejs.com/examples#2000
     - https://jqueryui.com/autocomplete/#remote
@@ -75,7 +75,7 @@ Your application **must**:
 - Client-side JavaScript should be less than 200 lines of code.
   - Note: this does not include libraries
   - No cheating by writing all of your JS on one line, etc
-  - The focus is backend, not frontend. But you will need some clientside code in some circumstances
+  - The focus is backend, not frontend. But you will need some client-side code in some circumstances
 
 - Your project must have a `README.md` file written using [Markdown] with at least the following:
   - Explanation of what the project is / what it does.
