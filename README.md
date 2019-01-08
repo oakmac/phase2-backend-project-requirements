@@ -55,6 +55,7 @@ Your application **must**:
   - You must have at least **two** `<form>` submissions that insert or edit data in a database.
   - Do not use AJAX for form submission; use a native HTML `<form>` element
   - The form should do input validation and show input errors in the UI (if necessary)
+  - This tutorial might be helpful: [Working with forms](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/forms)
 
 - Have at least one AJAX-based GET endpoint that powers a dynamic dropdown or type-ahead component
   - This part will require some clientside JavaScript
@@ -69,6 +70,7 @@ Your application **must**:
 - Your project must be hosted somewhere publicly reachable via `https`
   - Note that you do not need to purchase a domain name for your project. But it
     should be reachable via a public URL somewhere.
+  - Examples: [Zeit Now](https://zeit.co/now), [Heroku](https://www.heroku.com/), [DigitalOcean](https://www.digitalocean.com/)
 
 - Client-side JavaScript should be less than 200 lines of code.
   - Note: this does not include libraries
@@ -81,8 +83,10 @@ Your application **must**:
   - List of team members.
 
 - Your repo must be connected to [Travis CI](https://travis-ci.org/):
-  - You must run at least one test in your Travis CI build (hint: test for [StandardJS])
+  - You must have at least one test of an API endpoint that touches the database
+  - This tutorial might be helpful: [Test Driven Development with Node](https://mherman.org/blog/test-driven-development-with-node/)
   - Put a build status badge in your `README.md` that links to your latest build
+  - Hint: don't forget to test for [StandardJS]!
 
 - Code must follow some organization scheme.
   - Everything cannot be in one super long file.
