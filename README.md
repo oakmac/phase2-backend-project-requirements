@@ -81,13 +81,11 @@ Your application **must**:
   - Everything cannot be in one super long file.
   - Break different parts of the code into different files / modules.
   - No "spaghetti code".
-  - Bonus / optional: consider using a build system with [npm scripts], [browserify], or [webpack]
+  - Bonus / optional: consider using a build system with [npm scripts]
 
 [Markdown]:https://guides.github.com/features/mastering-markdown/
 [StandardJS]:https://standardjs.com/
 [npm scripts]:https://deliciousbrains.com/npm-build-script/
-[browserify]:http://browserify.org/
-[webpack]:https://webpack.js.org/
 
 ## Workflow Requirements
 
