@@ -18,18 +18,16 @@ technologies we have learned in Phase 2: [express.js], [PostgreSQL], [knex.js],
 etc.
 
 You will not be designing something "new" for this project. Pick something that
-already exists and rebuild it from scratch with your team. Examples: a Twitter
-clone, a Facebook clone, a forum, an ecommerce website, etc. The project scope
-should be well-understood and defined up-front. Please verify your project plans
-with an instructor before beginning coding.
+already exists and build it from scratch with your team. Examples: a Twitter
+clone, a simplified Facebook clone, a basic forum, a small ecommerce website,
+etc. The project scope should be well-understood and defined up-front. Please
+verify your project plans with an instructor before beginning coding.
 
-Your application will need a basic UI using HTML and CSS, but it is ok for this to be simple
-
-Focus on thoroughness of the implementation using backend technologies like
-`GET` and `POST` requests, database schema and queries, user authentication,
-form submission and validation, HTML templates, etc. You will need some HTML +
-CSS in order for the application to work, but it is ok to keep this part simple
-(hint: use a CSS framework).
+You will need some HTML + CSS in order for the application to work, but it is ok
+to keep this part simple (hint: use a CSS framework). Focus on thoroughness of
+the implementation using backend technologies like `GET` and `POST` requests,
+database schema and queries, user authentication, form submission and
+validation, HTML templates, etc.
 
 Each team will present their project in class on **Tuesday, Jan 22nd**.
 
@@ -53,9 +51,9 @@ Your application **must**:
 
 - User actions should trigger [CRUD operations](https://en.wikipedia.org/wiki/Create,_read,_update_and_delete) against the database.
   - You must have at least **two** `<form>` submissions that insert or edit data in a database.
+  - The forms should handle input validation and show errors in the UI (if necessary)
   - Do not use AJAX for form submission; use a native HTML `<form>` element
-  - The form should do input validation and show input errors in the UI (if necessary)
-  - This tutorial might be helpful: [Working with forms](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/forms)
+  - This [Working with forms](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/forms) tutorial might be helpful
 
 - Have at least one AJAX-based GET endpoint that powers a dynamic dropdown or type-ahead component
   - This part will require some client-side JavaScript
