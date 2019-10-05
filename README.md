@@ -55,25 +55,25 @@ Your application **must**:
   - Do not use AJAX for form submission; use a native HTML `<form>` element
   - This [Working with forms](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/forms) tutorial might be helpful
 
-- Have at least one AJAX-based GET endpoint that powers a dynamic dropdown or type-ahead component
-  - This part will require some client-side JavaScript
-  - Example components:
-    - http://autocompletejs.com/examples#2000
-    - https://jqueryui.com/autocomplete/#remote
-
 - Have user authentication using [passport.js](http://www.passportjs.org/)
   - must support at least one OAuth provider (Twitter, Facebook, GitHub, etc)
   - must support passport.js "local strategy" backed with a database
 
-- Your project must be hosted somewhere publicly reachable via `https`
-  - Note that you do not need to purchase a domain name for your project. But it
-    should be reachable via a public URL somewhere.
-  - Examples: [Zeit Now](https://zeit.co/now), [Heroku](https://www.heroku.com/), [DigitalOcean](https://www.digitalocean.com/)
+- Code must follow some organization scheme.
+  - Everything cannot be in one super long file.
+  - Break different parts of the code into different files / modules.
+  - No "spaghetti code".
+  - Bonus / optional: consider using a build system with [npm scripts]
 
 - Client-side JavaScript should be less than 200 lines of code.
   - Note: this does not include libraries
   - No cheating by writing all of your JS on one line, etc
   - The focus is backend, not frontend. But you will need some client-side code in some circumstances
+
+- Your project must be hosted somewhere publicly reachable via `https`
+  - Note that you do not need to purchase a domain name for your project. But it
+    should be reachable via a public URL somewhere.
+  - Examples: [Zeit Now](https://zeit.co/now), [Heroku](https://www.heroku.com/), [DigitalOcean](https://www.digitalocean.com/)
 
 - Your project must have a `README.md` file written using [Markdown] with at least the following:
   - Explanation of what the project is / what it does.
@@ -86,11 +86,11 @@ Your application **must**:
   - Put a build status badge in your `README.md` that links to your latest build
   - Hint: don't forget to test for [StandardJS]!
 
-- Code must follow some organization scheme.
-  - Everything cannot be in one super long file.
-  - Break different parts of the code into different files / modules.
-  - No "spaghetti code".
-  - Bonus / optional: consider using a build system with [npm scripts]
+- (optional) Have at least one AJAX-based GET endpoint that powers a dynamic dropdown or type-ahead component
+  - This part will require some client-side JavaScript
+  - Example components:
+    - http://autocompletejs.com/examples#2000
+    - https://jqueryui.com/autocomplete/#remote
 
 [Markdown]:https://guides.github.com/features/mastering-markdown/
 [StandardJS]:https://standardjs.com/
@@ -98,7 +98,7 @@ Your application **must**:
 
 ## Workflow Requirements
 
-- Teams will either be solo or groups of 3-5 students and assigned by instructors.
+- You can work solo, or on a team of up to 3 students
 
 - Create one GitHub repo and add all group members as collaborators.
 
@@ -131,7 +131,9 @@ Any of the following are valid reasons to reject a PR:
 
 ## Learning Objectives
 
-> TODO: write this section
+> TODO: finish this section
+
+The focus of this project is less about creativity and more about completeness and thoroughness of implementation.
 
 --------------------------------------------------------------------------------
 
