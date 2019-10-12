@@ -29,11 +29,15 @@ the implementation using backend technologies like `GET` and `POST` requests,
 database schema and queries, user authentication, form submission and
 validation, HTML templates, etc.
 
-Each team will present their project in class on **Tuesday, Jan 22nd**.
-
 [express.js]:https://expressjs.com/
 [PostgreSQL]:https://www.postgresql.org/
 [knex.js]:https://knexjs.org/
+
+## Due Date
+
+Each team will present their project in class on **Saturday, Oct 26th**.
+
+We will have Career Day during class on **Tue, Oct 22nd** and **Thu, Oct 24th**. Please plan ahead :)
 
 ## Technical Requirements
 
@@ -42,10 +46,6 @@ Your application **must**:
 - You must use some form of HTML templating
   - Pure JavaScript functions that return strings, or use [template literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals)
   - [mustache](http://mustache.github.io/), [handlebars](https://handlebarsjs.com/), [ejs](https://ejs.co/), [pug](https://pugjs.org/api/getting-started.html), etc
-
-- Your project must be able to swap between database types by using a config file.
-  - In other words, your database should not be tied to just PostgresQL
-  - Hint: use an abstraction layer like [knex.js](https://knexjs.org/) or [Sequelize](http://docs.sequelizejs.com/)
 
 - Your project must support database [schema migrations](https://en.wikipedia.org/wiki/Schema_migration).
 
@@ -91,6 +91,10 @@ Your application **must**:
   - Example components:
     - http://autocompletejs.com/examples#2000
     - https://jqueryui.com/autocomplete/#remote
+
+- (optional) Your project must be able to swap between database types by using a config file.
+  - In other words, your database should not be tied to just PostgresQL
+  - Hint: use an abstraction layer like [knex.js](https://knexjs.org/) or [Sequelize](http://docs.sequelizejs.com/)
 
 [Markdown]:https://guides.github.com/features/mastering-markdown/
 [StandardJS]:https://standardjs.com/
